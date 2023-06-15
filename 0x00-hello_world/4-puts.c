@@ -3,9 +3,9 @@
 /**
  *main - Entry point
  *
- *Description: "A c program that display bu using puts"
+ *Description: "A c program that display by using puts"
  *
- *Return : Always 0 (Success)
+ *Return: Always 0 (Success)
  */
 
 int main(void)
