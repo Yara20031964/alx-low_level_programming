@@ -1,8 +1,11 @@
 #include<stdio.h>
+
 /**
- *main -main entry point
+ *main - Entry point
  *
- *return : always 0(sucsses)
+ *Description: "A c program that display bu using puts"
+ *
+ *Return : Always 0 (Success)
  */
 
 int main(void)
