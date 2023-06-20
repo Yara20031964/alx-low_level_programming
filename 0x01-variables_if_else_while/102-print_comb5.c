@@ -25,8 +25,10 @@ putchar(' ');
 putchar(m / 10 + '0');
 putchar(m % 10 + '0');
 if (n == 98 && m == 99)
-continue
+continue;
 putchar(',');
 putchar(' ');
 return (0);
+}
+}
 }
