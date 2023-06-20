@@ -27,7 +27,7 @@ if (n == 98 && m == 99)
 continue;
 putchar(',');
 putchar(' ');
+}
+}
 return (0);
-}
-}
 }
