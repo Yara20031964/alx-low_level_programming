@@ -14,7 +14,6 @@ int main(void)
 {
 int n = 0;
 int m = 0;
-int k = 0;
 for (n = 0; n <= 98; ++n)
 {
 for (m = 0; m <= 99; ++m)
