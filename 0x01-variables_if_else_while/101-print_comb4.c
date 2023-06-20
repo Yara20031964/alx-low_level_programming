@@ -14,13 +14,17 @@ int main(void)
 {
 int n = 0;
 int m = 0;
-for (n = 0; n < 9; ++n)
+int k = 0;
+for (n = 0; n < 8; ++n)
 {
 for (m = n + 1; m <= 9; ++m)
 {
+for (k = m + 1; k <= 9; ++k)
+{
 putchar(n +  '0');
 putchar(m + '0');
-if ((n + m) != 17)
+putchar(k + '0');
+if ((n + m + k) != 24)
 {
 putchar(',');
 putchar(' ');
