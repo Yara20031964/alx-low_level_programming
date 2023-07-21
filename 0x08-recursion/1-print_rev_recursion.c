@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
-*_puts_recursion-print a string, followed by a new line
+*_print_rev_recursion-print a string, followed by a new line
 *@s:input
 *Return: Always 0 (Success)
 */
 
-void _puts_recursion(char *s)
+void _print_rev_recursion(char *s)
 {
 if (*s == '\0')
 {
