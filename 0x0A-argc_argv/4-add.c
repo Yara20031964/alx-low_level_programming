@@ -21,7 +21,7 @@ char *c;
 
 while (--argc)
 {
-for (argv[argc]; *c; ++c)
+for (c = argv[argc]; *c; ++c)
 
 if (*c < '0' || *c > '9')
 return (printf("Error\n", 1));
