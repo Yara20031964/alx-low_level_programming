@@ -23,7 +23,7 @@ return (1);
 }
 else
 {
-int result = atoi(argv[0]) * atoi(argv[1];
+int result = atoi(argv[0]) * atoi(argv[1]);
 printf("%d\n", result);
 return (0);
 }
