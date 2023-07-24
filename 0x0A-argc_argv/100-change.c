@@ -33,7 +33,7 @@ break;
 printf("%d\n", lcents);
 }
 else
-}
+{
 printf("Error\n");
 return (1);
 }
