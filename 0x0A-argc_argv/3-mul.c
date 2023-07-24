@@ -16,14 +16,14 @@
 
 int main(int argc, char *argv[])
 {
-if (argc > 2 || argc < 2)
+if (argc > 3 || argc < 3)
 {
 printf("Error\n");
 return (1);
 }
 else
 {
-int result = atoi(argv[0]) * atoi(argv[1]);
+int result = atoi(argv[1]) * atoi(argv[2]);
 printf("%d\n", result);
 return (0);
 }
