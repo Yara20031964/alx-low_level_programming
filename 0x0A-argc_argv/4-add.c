@@ -16,7 +16,7 @@
 
 int main(int argc, char *argv[])
 {
-int sum = 0
+int sum = 0;
 char *c;
 
 while (--argc)
@@ -29,5 +29,4 @@ sum += atoi(argv[argc]);
 }
 printf("%d\n", sum);
 return (0);
-
 }
