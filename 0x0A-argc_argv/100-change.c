@@ -26,7 +26,7 @@ if (money >= cents[i])
 {
 lcents += money / cents[i];
 money = money % cents[i];
-if (money == 0)
+if (money % cents[i] == 0)
 break;
 }
 }
