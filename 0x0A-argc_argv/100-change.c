@@ -22,7 +22,7 @@ int i, lcents = 0, money = atio(argv[1]);
 int cents[] = {25, 10, 5, 2, 1};
 for (i = 0; i < 5; i++)
 {
-if (money > cents[i])
+if (money >= cents[i])
 {
 lcents = money / cents[i];
 money = money % cents[i];
