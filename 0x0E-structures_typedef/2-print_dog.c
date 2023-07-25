@@ -1,7 +1,7 @@
 #include "dog.h"
 #include <stdio.h>
 /**
-*init_dog-print a string, followed by a new line
+* print_dog-print a string, followed by a new line
 *@age:input
 *@owner:input
 *@name:input
