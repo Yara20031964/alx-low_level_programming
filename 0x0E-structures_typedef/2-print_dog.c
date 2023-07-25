@@ -2,9 +2,6 @@
 #include <stdio.h>
 /**
 * print_dog-print a string, followed by a new line
-*@age:input
-*@owner:input
-*@name:input
 *@d:input
 *Return: Always 0 (Success)
 */
