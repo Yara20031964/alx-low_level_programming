@@ -1,4 +1,4 @@
-#include <dog.h>
+#include "dog.h"
 
 /**
 *init_dog-print a string, followed by a new line
