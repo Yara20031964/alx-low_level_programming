@@ -1,6 +1,25 @@
 #include "main.h"
 
 /**
+* last_index-print a string  is function helped me to solve task
+*
+*@s:input IS ARGUMENT
+*
+*Return: Always 0 (Success)
+*
+*/
+
+int is_palindrome(char *s);
+int check(char *s, int start, int end, int mod);
+int last_index(char *s)
+{
+int n = 0;
+if (*s > '\0')
+n += last_index(s + 1) + 1;
+return (n);
+}
+
+/**
 *is_palindrome-print  a string, followed by a new line
 *
 *@s:input
