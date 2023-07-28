@@ -13,7 +13,7 @@ return (checkprime(n, 2));
 }
 
 /**
-*checkprime-print a string, followed by a new line
+checkprime-print a string, followed by a new line
 *@n:input
 *@i:input
 *Return: Always 0 (Success)
@@ -25,11 +25,11 @@ if (i == n)
 
 return (1);
 
-else if (n % 2 == 0 || n <= 1)
+else if (n % 2)
 
-return (0);
+return (square(n, i + 1));
 
+else
 
-return (checkprime(n, i + 1));
-
+return (-1);
 }
