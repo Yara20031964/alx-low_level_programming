@@ -30,7 +30,7 @@ return (n);
 int is_palindrome(char *s)
 {
 int end = last_index(s);
-return (cheak(s, 0, end - 1, end % 2));
+return (check(s, 0, end - 1, end % 2));
 }
 
 /**
@@ -53,5 +53,5 @@ return (0);
 
 else
 
-return (cheak(s, start + 1, end - 1, mod));
+return (check(s, start + 1, end - 1, mod));
 }
