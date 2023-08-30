@@ -15,7 +15,7 @@ int cont = 0;
 if (*s > '\0')
 {
 _strlen_recursion(s + 1);
-++cont;
+return (++cont);
 }
 return (cont);
 }
