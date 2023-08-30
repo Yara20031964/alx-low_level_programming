@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
-*print_rev_recursion - print a string, followed by a new line
+*_print_rev_recursion - print a string, followed by a new line
 *
 *@s:input pointer of string
 *
