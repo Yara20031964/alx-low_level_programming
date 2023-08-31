@@ -20,7 +20,7 @@ return (ch_prime(n, 2));
 *Return: Always 0 (Success)
 */
 
-int ch_prime(int n, int othrn);
+int ch_prime(int n, int othrn)
 {
 if (othrn >= n && n > 1)
 
