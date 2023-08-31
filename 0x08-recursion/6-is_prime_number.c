@@ -1,5 +1,5 @@
 #include "main.h"
-#include <stdioh>
+#include <stdio.h>
 
 /**
 *is_prime_number-print a string, followed by a new line
