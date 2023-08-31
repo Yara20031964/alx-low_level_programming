@@ -32,5 +32,5 @@ return (0);
 
 else
 
-return (ch_prime(ch_prime(n, othrn + 1));
+return (ch_prime(n, othrn + 1));
 }
