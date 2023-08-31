@@ -3,7 +3,7 @@
 
 /**
 *is_prime_number-print a string, followed by a new line
-*@n:input
+*@n:input pointer varible
 *@othrn:input
 *Return: Always 0 (Success)
 */
@@ -14,9 +14,9 @@ return (ch_prime(n, 2));
 }
 
 /**
-*ch_prime a string, followed by a new line
-*@n:input
-*othrn:input
+*ch_prime - print  a string, followed by a new line
+*@n:input pointer variable
+*@othrn:input
 *Return: Always 0 (Success)
 */
 
@@ -26,7 +26,7 @@ if (othrn >= n && n > 1)
 
 return (1);
 
-else if (n % othrn == 0 || n <=1)
+else if (n % othrn == 0 || n <= 1)
 
 return (0);
 
