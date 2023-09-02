@@ -6,7 +6,7 @@
  *main - Entry point
  *
  *@argc: 'the program's description'
- *@argv: describe the parameter argument vector
+ *@argv: describe the parameter 
  *
  * Return: Always 0 (Success)
  */
