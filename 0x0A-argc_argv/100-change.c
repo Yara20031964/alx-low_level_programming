@@ -18,7 +18,7 @@ while (j != 0)
 {
 if (j >= 25)
 {
-j = j - 25;
+	j = j - 25;
 ++i;
 }
 else if (j >= 10)
@@ -60,7 +60,7 @@ if (argc == 2)
 {
 fun(j);
 }
-else if (argc == 1)
+else if (argc == 1 || argc > 2)
 {
 printf("Error\n");
 return (1);
