@@ -10,6 +10,10 @@
 void fun(int j)
 {
 int i = 0;
+if (j < 0)
+printf("0\n");
+else
+{
 while (j != 0)
 {
 if (j >= 25)
@@ -40,6 +44,7 @@ j = j - 1;
 }
 printf("%d\n", i);
 }
+}
 
 /**
  *main - Entry poin
@@ -51,16 +56,14 @@ printf("%d\n", i);
 int main(int argc, char const *argv[])
 {
 int j = atoi(argv[1]);
-if (argc == 1)
-{
-printf("Error\n");
-return (1);
-}
-if (j < 0)
-printf("0\n");
 if (argc == 2)
 {
 fun(j);
+}
+else
+{
+printf("Error\n");
+return (1);
 }
 return (0);
 }
