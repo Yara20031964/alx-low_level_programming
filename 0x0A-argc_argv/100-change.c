@@ -51,7 +51,7 @@ printf("%d\n", i);
 int main(int argc, char const *argv[])
 {
 int j = atoi(argv[1]);
-if (argc <= 1)
+if (argc == 1)
 {
 printf("Error\n");
 return (1);
