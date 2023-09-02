@@ -56,9 +56,9 @@ if (argc == 1)
 printf("Error\n");
 return (1);
 }
-else if (j < 0)
+if (j < 0)
 printf("0\n");
-else
+if (argc == 2)
 {
 fun(j);
 }
