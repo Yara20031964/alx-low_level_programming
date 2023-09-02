@@ -11,7 +11,7 @@
 
 int main(int argc, char const *argv[])
 {
-int mul;
+int mul = 0;
 int i;
 int count = 0;
 for (i = 1; i < argc; i++)
