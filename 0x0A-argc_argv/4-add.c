@@ -1,6 +1,7 @@
-#include <stdio.h>
-#include <stdlib.h>
 
+
+ #include <stdio.h>
+#include <stdlib.h>
 /**
  *main - Entry point
  *
@@ -22,6 +23,7 @@ printf("Error\n");
 return (1);
 }
 }
+
 for (i = 1; i < argc; i++)
 {
 mul += atoi(argv[i]);
