@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include "main.h"
 /**
  *fun - funcation that helo me to reduce line in main fun
  *@j: parameter input
