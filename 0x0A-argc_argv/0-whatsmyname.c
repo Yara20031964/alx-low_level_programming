@@ -1,11 +1,13 @@
 #include <stdio.h>
 
 /**
-* main -print program name
-*@argc : argumaent count
-*@argv : argument vector
-*return zero
-*/
+ *main - Entry point
+ *
+ *@argc: 'the program's description'
+ *@argv: describe the parameter
+ *
+ * Return: Always 0 (Success)
+ */
 
 int main(int argc, char const *argv[])
 {
