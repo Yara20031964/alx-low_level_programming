@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "main.h"
 /**
  *fun - funcation that helo me to reduce line in main fun
  *@j: parameter input
@@ -61,7 +60,7 @@ if (argc == 2)
 {
 fun(j);
 }
-else
+else if (argc == 1)
 {
 printf("Error\n");
 return (1);
