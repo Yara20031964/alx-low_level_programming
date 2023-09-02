@@ -11,8 +11,12 @@ int main(int argc, char const *argv[])
 {
 int j;
 int i = 0;
-if (argc == 2)
+
+if (argc == 1 || argc > 2)
 {
+printf("Error\n");
+return (1);
+}
 j = atoi(argv[1]);
 while (j > 0)
 {
@@ -28,12 +32,6 @@ else if (j >= 1)
 j = j - 1;
 ++i;
 }
-printf("%d\n");
+printf("%d\n", i);
 return (0);
-}
-else if (argc == 1 || argc > 2)
-{
-printf("Error\n");
-return (1);
-}
 }
