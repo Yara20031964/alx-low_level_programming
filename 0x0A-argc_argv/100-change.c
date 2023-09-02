@@ -50,5 +50,5 @@ j = j - 1;
 }
 }
 printf("%d\n", i);
-return (0)
+return (0);
 }
