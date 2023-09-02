@@ -1,12 +1,10 @@
-
-
- #include <stdio.h>
+#include <stdio.h>
 #include <stdlib.h>
 /**
  *main - Entry point
  *
- *@argc: 'the program's description'
- *@argv: describe the parameter 
+ *@argc: 'the program's description' argument count
+ *@argv: describe the parameter argument vector
  *
  * Return: Always 0 (Success)
  */
