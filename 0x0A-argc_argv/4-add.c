@@ -28,7 +28,7 @@ if (count == 0)
 {
 for (i = 1; i < argc; i++)
 {
-mul += atoi(argv[i]);
+mul += atoi(*argv[i]);
 }
 printf("%d\n", mul);
 return (0);
