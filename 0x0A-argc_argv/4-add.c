@@ -1,5 +1,8 @@
-#include <stdio.h>
+
+
+ #include <stdio.h>
 #include <stdlib.h>
+#include<cstring>
 /**
  *main - Entry point
  *
@@ -13,12 +16,17 @@ int main(int argc, char const *argv[])
 {
 int mul = 0;
 int i;
+int j;
 for (i = 1; i < argc; i++)
 {
-if (*argv[i] < '0' || *argv[i] > '9')
+int size = strlen(argv[i]);
+for (j = 0; j < size; j++)
+{
+if (argv[i][j] < '0' || argv[i][j] > '9')
 {
 printf("Error\n");
 return (1);
+}
 }
 }
 
@@ -28,4 +36,5 @@ mul += atoi(argv[i]);
 }
 printf("%d\n", mul);
 return (0);
+
 }
