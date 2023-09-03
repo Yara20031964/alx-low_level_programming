@@ -5,12 +5,12 @@
 * stdout.
 *
 * @str: This is my input string
-*
+* Return: no return
 */
 void _puts(char *str)
 {
 int index;
-for (index = 0; str[index] != '\0'; index++)
+for (index = 0; str[index]; index++)
 {
 _putchar(str[index]);
 }
