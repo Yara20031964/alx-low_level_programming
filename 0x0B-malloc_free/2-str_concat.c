@@ -31,4 +31,5 @@ char *str_concat(char *s1, char *s2)
 		else
 			ptr[i] = s2[i - size1];
 		return (ptr);
+	}
 }
