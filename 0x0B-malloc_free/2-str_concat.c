@@ -30,6 +30,6 @@ char *str_concat(char *s1, char *s2)
 			ptr[i] = s1[i];
 		else
 			ptr[i] = s2[i - size1];
-		return (ptr);
 	}
+	return (ptr);
 }
