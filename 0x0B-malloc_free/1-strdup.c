@@ -2,10 +2,11 @@
 #include <stdlib.h>
 
 /**
-* *_strdup-print a string, followed by a new line
-* @srt: input it is a parameter
-* Return: Always 0 (Success)
-*/
+ * _strdup - duplicate to new memory space location
+ * @str: char
+ * Return: 0
+ */
+
 
 char *_strdup(char *str)
 {
