@@ -20,5 +20,5 @@ char *_strdup(char *str)
 	if (ptr == 0)
 		return (0);
 		for (i = 0; i < size; i++)
-			str[i] == ptr[i];
+			str[i] = ptr[i];
 	return (ptr);
