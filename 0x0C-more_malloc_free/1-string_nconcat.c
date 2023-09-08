@@ -14,9 +14,9 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	unsigned int size1, size2, i, j;
 	char *ptr;
 
-	for (size1 = 0; s1[size1] != '\0'; size1++)
+	for (size1 = 0; s1 && s1[size1] != '\0'; size1++)
 	;
-	for (size2 = 0; s2[size2] != '\0'; size2++)
+	for (size2 = 0; s2 && s2[size2] != '\0'; size2++)
 	;
 	if (n < size2)
 		ptr = malloc((size1 + n + 1));
