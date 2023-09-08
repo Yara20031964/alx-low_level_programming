@@ -24,15 +24,15 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	for (size2 = 0; s2[size2] != '\0'; size2++)
 	;
 	if (n < size2)
-		s = malloc(sizeof(char) * (size1 + n + 1));
+		ptr = malloc(sizeof(char) * (size1 + n + 1));
 	else
-		s = malloc(sizeof(char) * (size1 + size2 + 1));
+		ptr = malloc(sizeof(char) * (size1 + size2 + 1));
 
 	if (ptr == 0)
 		return (0);
 	for (i = 0; i < size1; i++)
 	{
-		ptr[i] = s1[i]
+		ptr[i] = s1[i];
 	}
 	if (n < size2)
 	{
