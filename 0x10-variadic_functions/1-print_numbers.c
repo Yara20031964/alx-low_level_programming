@@ -1,5 +1,5 @@
 #include "variadic_functions.h"
-#include <stdio>
+#include <stdio.h>
 
 /**
  * print_numbers - function name
