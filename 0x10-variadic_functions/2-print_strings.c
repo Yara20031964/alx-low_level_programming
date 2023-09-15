@@ -5,6 +5,7 @@
  * print_strings - function name
  * @separator: argument
  * @n: argument
+ * @...: paramter
  */
 void print_strings(const char *separator, const unsigned int n, ...)
 {
@@ -17,6 +18,7 @@ void print_strings(const char *separator, const unsigned int n, ...)
 	{
 		if (va_arg(args, char *) == NULL)
 			printf("(nil)");
+		else
 		printf("%s", va_arg(args, char *));
 		if (i != (n - 1) && separator != NULL)
 			printf("%s", separator);
