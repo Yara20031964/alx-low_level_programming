@@ -1,4 +1,4 @@
-#include "main.h"
+#include "lists.h"
 
 /**
  * str_len - function return len
