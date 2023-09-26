@@ -9,7 +9,9 @@ listint_t *creatnode(const int data)
 {
 	listint_t *newnode = malloc(sizeof(listint_t));
 
-	newnode->n = data;;
+	if (!newnode)
+		return (NULL);
+	newnode->n = data;
 	newnode->next = NULL;
 	return (newnode);
 }
