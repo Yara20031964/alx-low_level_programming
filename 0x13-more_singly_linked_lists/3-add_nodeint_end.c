@@ -31,15 +31,17 @@ listint_t *add_nodeint_end(listint_t **head, const int n)
 	if (*head == NULL)
 	{
 		*head = newnode;
+	}
+	else
+	{
+		listint_t *current = *head;
+
+		while (current->next != NULL)
+		{
+			current = current->next;
+		}
+		current = newnode;
 		return (newnode);
 	}
-	listint_t *current = *head;
-
-	while (current->next != NULL)
-	{
-		current = current->next;
-	}
-	current = newnode;
-	return (newnode);
 }
 
