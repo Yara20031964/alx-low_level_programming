@@ -9,10 +9,10 @@
  */
 listint_t *insert_nodeint_at_index(listint_t **head, unsigned int idx, int n)
 {
-	listint_t *newnode = creatnode(n);
+	listint_t *newnode = creatnode(n), *node;
 	unsigned int i = 0;
 
-	if (!head || !new_node)
+	if (!head || !newnode)
 		return (NULL);
 	if (!idx)
 	{
