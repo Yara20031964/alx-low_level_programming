@@ -3,7 +3,6 @@
 /**
  * free_listint2- funtion delete allthing
  * @head: parameter
- * Return: no return it is void fun.
  */
 
 void free_listint2(listint_t **head)
