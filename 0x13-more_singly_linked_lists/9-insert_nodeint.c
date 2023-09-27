@@ -5,7 +5,7 @@
  * @data: parameter
  * Return: return newnode
  */
-listint_t *creatnode( int data)
+listint_t *creatnode( const int data)
 {
 	listint_t *newnode = malloc(sizeof(listint_t));
 
