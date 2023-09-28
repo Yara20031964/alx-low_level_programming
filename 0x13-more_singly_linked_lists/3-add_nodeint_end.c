@@ -1,6 +1,21 @@
 #include "lists.h"
 
 /**
+ * creatnode- function create node
+ * @data: parameter
+ * Return: return newnode
+ */
+listint_t *creatnode(const int k)
+{
+	listint_t *newnode = malloc(sizeof(listint_t));
+
+	if (!newnode)
+		return (NULL);
+	newnode->n = k;
+	newnode->next = NULL;
+	return (newnode);
+}
+/**
  * add_nodeint_end- function to add node in the end
  * @head: parameter
  * @n:parameter
