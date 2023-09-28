@@ -2,7 +2,7 @@
 
 /**
  * creatnode- function create node
- * @data: parameter
+ * @k: parameter
  * Return: return newnode
  */
 listint_t *creatnode(const int k)
