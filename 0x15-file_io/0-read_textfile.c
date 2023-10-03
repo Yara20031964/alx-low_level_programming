@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * create_file-function
+ * read_textfile-function
  * @filename: parameter
  * @letters:parameter
  * Return: 0 actual letter
@@ -14,12 +14,12 @@ ssize_t read_textfile(const char *filename, size_t letters)
 	ssize_t fb;
 
 	fb = open(filename, O_RDONLY);
-	if (fd == -1)
+	if (fb == -1)
 		return (0);
 	x = read(fb, buf, letters);
-	y = write(STDOUT_FILEINO, buf, x)
-		close(fd);
-	return x;
+	y = write(STDOUT_FILENO, buf, x);
+		close(fb);
+	return (x);
 }
 
 
